@@ -24,10 +24,6 @@ strTask = ""  # The task given by the user
 strPriority = ""  # The priority level of the task
 strRemove = ""  # A string to remove once a task is complete
 
-# Create text file
-textfile = open(objFile, "a")
-textfile.close()
-
 # -- Processing -- #
 # When the program starts, load the any data you have
 # in a text file called ToDoList.txt into a python list of dictionary rows (like Lab 5-2)
